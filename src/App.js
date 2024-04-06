@@ -1,8 +1,13 @@
-
+import './app.css';
+import Nav from './components/NavBar/NavBar';
+import Section from './components/Section/Section';
 
 function App() {
   return (
-    <h1> Creando mi portfolio profecional </h1>
+    <div>
+    <Nav/>
+    <Section/>
+    </div>
   );
 }
 

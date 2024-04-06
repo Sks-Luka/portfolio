@@ -1,0 +1,28 @@
+.Nav{
+    display: flex;
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    justify-content: space-around;
+    list-style: none;
+    gap: 3rem; 
+    font-size: 1.3rem;
+    .TituloPrincipal{
+        color: white;
+        }
+    .List{
+        display: flex;
+        flex-direction: row;
+        color:red;
+        gap: 2rem;
+        text-decoration: none;
+        list-style: none;
+        justify-content: center;
+        .Content{
+            color:white;
+            font-size: 2rem;
+        }
+    }
+}
+

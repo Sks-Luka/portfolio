@@ -1,0 +1,13 @@
+.Section{
+    width: 18% ;
+    padding-bottom: 21.5rem;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); 
+    .List{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        .Content{
+            color:red;
+        }
+    }
+}
